@@ -36,7 +36,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://www.minecraft.net/en-us/about-minecraft 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
@@ -53,11 +53,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+[WCAG checklist Minecraft website.docx](https://github.com/KeyshaManucan/Blokweb/files/13448520/WCAG.checklist.Minecraft.website.docx)
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-
+De pagina bevat 128 errors, waarvan 40 img errors
 </details>
 
 
@@ -65,7 +65,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Breakdownschets (week 1)
 
 <details>
-  <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
+[breakdown - Frame 1.pdf](https://github.com/KeyshaManucan/Blokweb/files/13448549/breakdown.-.Frame.1.pdf)
 
   ### de hele pagina: 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
