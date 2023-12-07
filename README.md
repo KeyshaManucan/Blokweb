@@ -45,7 +45,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  ![mc eduaction](https://github.com/KeyshaManucan/Blokweb/assets/150794944/ce087bf3-f374-4c1e-95d9-15c3e89dd32c)
+
  
 </details>
 
