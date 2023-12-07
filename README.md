@@ -39,8 +39,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.minecraft.net/en-us/about-minecraft 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  About Minecraft 
+  ![pagina 1](https://github.com/KeyshaManucan/Blokweb/assets/150794944/96842394-a6b4-4ba4-8238-8a389e2aa903)
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
@@ -71,11 +72,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   [breakdown - Frame 1.pdf](https://github.com/KeyshaManucan/Blokweb/files/13448549/breakdown.-.Frame.1.pdf)
 
   ### dynamisch deel (bijv menu): 
-  ![Screenshot 2023-12-07 131633](https://github.com/KeyshaManucan/Blokweb/assets/150794944/e89cdf67-1dac-4d22-8e22-b6b7320838e2)
+  ![Burger menu](https://github.com/KeyshaManucan/Blokweb/assets/150794944/31995fa0-be4b-4bb9-8540-066adacf86a2)
+
 
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  ![Screenshot 2023-12-07 131633](https://github.com/KeyshaManucan/Blokweb/assets/150794944/bbf81728-6566-457f-a589-ceb65bef4c10)
+  ![Animatie](https://github.com/KeyshaManucan/Blokweb/assets/150794944/ccaa7d3c-d2e9-4278-9362-54109d21aa67)
+
 
 
 </details>
@@ -92,7 +95,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
   De basis html van de pagina was gemaakt en hierdoor kon ik met de css aan de slag. Ik liep gelijk tegen een probleem aan en dat was de hamburger menu maken. Dit had ik nog nooit eerder gedaan en het was          moeilijk om de navigatie goed te krijgen
-  ![Screenshot 2023-12-07 132424](https://github.com/KeyshaManucan/Blokweb/assets/150794944/0df971c1-c80b-4f9a-a856-a1e683726b6c)
+  ![Nav](https://github.com/KeyshaManucan/Blokweb/assets/150794944/988d0644-a463-4c84-8c56-e8c5153dd0a0)
+
 
 
   ### Agenda voor meeting
