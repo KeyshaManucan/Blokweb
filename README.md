@@ -57,7 +57,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-De pagina bevat 128 errors, waarvan 40 img errors
+  De pagina bevat 128 errors, waarvan 40 img errors
 </details>
 
 
@@ -65,16 +65,18 @@ De pagina bevat 128 errors, waarvan 40 img errors
 ## Breakdownschets (week 1)
 
 <details>
-[breakdown - Frame 1.pdf](https://github.com/KeyshaManucan/Blokweb/files/13448549/breakdown.-.Frame.1.pdf)
+
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  [breakdown - Frame 1.pdf](https://github.com/KeyshaManucan/Blokweb/files/13448549/breakdown.-.Frame.1.pdf)
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  ![Screenshot 2023-12-07 131633](https://github.com/KeyshaManucan/Blokweb/assets/150794944/e89cdf67-1dac-4d22-8e22-b6b7320838e2)
+
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  ![Screenshot 2023-12-07 131633](https://github.com/KeyshaManucan/Blokweb/assets/150794944/bbf81728-6566-457f-a589-ceb65bef4c10)
+
 
 </details>
 
@@ -89,6 +91,8 @@ De pagina bevat 128 errors, waarvan 40 img errors
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  De basis html van de pagina was gemaakt en hierdoor kon ik met de css aan de slag. Ik liep gelijk tegen een probleem aan en dat was de hamburger menu maken. Dit had ik nog nooit eerder gedaan en het was          moeilijk om de navigatie goed te krijgen
+  ![Screenshot 2023-12-07 132424](https://github.com/KeyshaManucan/Blokweb/assets/150794944/0df971c1-c80b-4f9a-a856-a1e683726b6c)
 
 
   ### Agenda voor meeting
