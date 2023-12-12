@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   rood
 
   #### Je focus:
-  responsive
+  Surface plane
  
 </details>
 
@@ -39,13 +39,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.minecraft.net/en-us/about-minecraft 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  About Minecraft 
-  ![pagina 1](https://github.com/KeyshaManucan/Blokweb/assets/150794944/96842394-a6b4-4ba4-8238-8a389e2aa903)
+  About minecraft
+  <img src="./readme/Pagina 1.png" width="375px" alt="Screenshot pagina 1, about minecraft pagina">
+  
 
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  ![mc eduaction](https://github.com/KeyshaManucan/Blokweb/assets/150794944/ce087bf3-f374-4c1e-95d9-15c3e89dd32c)
+  Minecraft education  
+  <img src="./readme/Pagina 2.png" width="375px" alt="Screenshot pagina 2, minecraft education pagina">
+  
 
  
 </details>
@@ -55,7 +57,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-[WCAG checklist Minecraft website.docx](https://github.com/KeyshaManucan/Blokweb/files/13448520/WCAG.checklist.Minecraft.website.docx)
+[WCAG Checklist](<FED github/WCAG checklist Minecraft website.pdf>)
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
@@ -95,9 +97,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-  De basis html van de pagina was gemaakt en hierdoor kon ik met de css aan de slag. Ik liep gelijk tegen een probleem aan en dat was de hamburger menu maken. Dit had ik nog nooit eerder gedaan en het was          moeilijk om de navigatie goed te krijgen
+  De basis html van de pagina was gemaakt en hierdoor kon ik met de css aan de slag. Ik liep gelijk tegen een probleem aan en dat was de hamburger menu maken. Dit had ik nog nooit eerder gedaan en het was moeilijk om de navigatie goed te krijgen
   ![Nav](https://github.com/KeyshaManucan/Blokweb/assets/150794944/988d0644-a463-4c84-8c56-e8c5153dd0a0)
 
+  Er waren verschillende websites die de hamburger menu uitlegden, maar de meeste websites gebruikten divs
 
 
   ### Agenda voor meeting
@@ -132,6 +135,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Ik had moeite met het verkrijgen van het plaatje van de hamburger menu die de website zelf gebruikt. De hamburger menu bestaat uit verschillende lagen die samen zijn gecodeerd, hierdoor is het geen 1 geheel plaatje. Hierdoor heb ik mijn eigen plaatjes gecreëerd:
+  
+  <img src="./img/hamburger.png" width="375px" alt="Hamburger menu">
+  <img src="./img/kruis.png" width="375px" alt="Hamburger menu">
+
+  root kleuren die ik heb toegevoegd voor de navigatie: 
+  --green-navigation-1: #a0e080;
+  --green-navigation-2: #a0e081;
+  --disabled-02: #ede5e2;
+
+  Ik probeerde de stappen te volgen van de oefening uit DLO over de hamburger menu, maar mijn <a> teksten verschenen niet. Alleen twee van de meerdere <a> verschenen, ik liep hier erg vast:
+
+  <img src="./readme/Untitlede.png" width="375px" alt="probleem">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
