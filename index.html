@@ -1,21 +1,149 @@
 <!DOCTYPE html>
-<html lang="nl">
-	
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Howdy FED2324</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
 </head>
-
 <body>
-	<h1>Howdy FED2324</h1>
+    <header>
+        <a href="index.html"><img src="./img/logo-minecraft.svg" alt="Minecraft logo"></a>
 
-	<script defer src="scripts/script.js"></script>
+       <!--Hamburger menu button-->
+        <button aria-hidden="true"><img src="./img/hamburger.png" alt="Hamburger menu"></button>
+
+       <!--Navigatie button--> 
+        <nav>
+            <!--div gebruikt als container voor vormgeving, ik vond het moeilijk om de a en button element vorm te geven zonder een container die ze op de juiste positie zet-->
+            <div class="container">
+                <a href="index.html"><img src="./img/logo-minecraft.svg" alt="Minecraft logo"></a>
+                <button aria-hidden="true"> <img src="./img/kruis.png" alt="Kruis om hamburger menu af te sluiten"></button>
+            </div>
+            
+
+            <ul>
+                <li>Games</li>
+                <li><a class="#"><img src="./img/MCVB.png" alt="Minecraft grassblock"> minecraft</a></li>
+                <li> <a href="#"><img src="./img/MCD.png" alt="Minecraft block"> minecraft dungeons</a></li>
+                <li><a href="#"><img src="./img/MCL.png" alt="Minecraft block"> minecraft legends</a></li>
+                <li><a href="#"><img src="./img/EDU.png" alt="Minecraft Block"> minecraft education</a></li>
+                <li><a href="#">gift guide</a></li>
+                <li><a href="#">community</a></li>
+                <li><a href="#">merch</a></li>
+                <li><a href="#">support</a></li>
+                <li><a href="#">sign in</a></li>
+                <li><a href="#">redeem</a></li>
+           </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>The world is yours for the making</h1>
+            <a href="index.html">Dig Deeper
+                <a href="index.html"><img src="./img/down arrow.png" alt="Down arrow"></a>
+            </a>
+        </section>   
+        
+        <section>
+            <h2>Discover Minecraft</h2>
+            <p>Minecraft is a game made up of blocks, creatures, and community. Blocks can be used to reshape the world or build fantastical creations. Creatures can be battled or befriended, depending on your playstyle. Experience epic adventures solo or with friends, there’s no wrong way to play. Unless you’re digging straight down.</p>
+            <p>Ask an allay to collect supplies to fill the chest on your boat!</p>
+        </section>
+
+        <img class="fade" src="./img/fade2.png" alt="fade">
+
+        <section>
+            <h2>How it works</h2>
+            <img src="./img/Minecraft website/MC-About_Key-Art_Gather_Resources_600x800.png" alt="Minecraft karakter Steve houdt een pickaxe vast">
+            <h3>Gather resources</h3>
+            <p>Get crafty and use the surrounding environment to gather building materials—see how breaking down trees can help you create something new.</p>
+        </section>
+
+        <section>
+            <h2>Play with friends</h2>
+            <p>Whether you’re surviving the night or building a work of art, you can do so in the company of friends. A shared adventure can be a great experience! Play together regardless of platform, as long as everyone is using the same version - Java Edition or Bedrock Edition.</p>
+            <img src="./img/Minecraft website/Play_With_Friends_Online_672x360.png" alt="3 karakters in de Minecraft overworld die op een grass heuvel staan met twee bomen">
+            <section class="online">
+                <h3>Online</h3>
+                <p>Connect and play with players across the world, wherever they are.</p>
+                <ul>
+                    <li>1m + players</li>
+                    <li>Bedrock</li>
+                </ul>
+                <h4>Worlds</h4>
+                <p>Play in a custom world together with other players.</p>
+                <h4>Servers</h4>
+                <p>Discover community-run servers, full of activities and home to thousands of players.</p>
+            </section>
+        </section>
+
+        <img class="fade" src="./img/fade.png" alt="fade">
+
+        <section class="platform">
+            <h2>Platforms + Features</h2>
+
+            <div class="tabs">
+                <button>Platforms</button>
+                <button>Features</button>
+            </div>
+           
+            <p>Buy Minecraft: Java & Bedrock Edition* and get both versions of the game for the price of one. You can easily switch between games using the unified launcher and cross-play with any current edition of Minecraft, including consoles and mobile.</p>
+            <p>*Mac and Linux are compatible with Java Edition only.</p>
+            <ul>
+                <li>
+                    <a class="bn" href="#"><img src="./img/Minecraft website/buy-platform-icon.png" alt="desktop icoon">windows/mac/linux*</a>
+                    <a class="bn" href="#">buy now</a>
+                </li>
+                <li><a href="#"><img src="./img/Minecraft website/icon_platform__nintendo.png" alt="nintendo logo">nintento</a></li>
+                <li><a href="#"><img src="./img/Minecraft website/Platform-Icon_Chromebook.png" alt="google chrome logo">chromebook</a></li>
+                <li><a href="#"><img src="./img/Minecraft website/icon_platform__xbox.png" alt="xbox logo">xbox</a></li>
+                <li><a href="#"><img src="./img/Minecraft website/firetv.png" alt="het woord fire">amazon fire</a></li>
+                <li><a href="#"><img src="./img/Minecraft website/New_Mac_img.png" alt="mac apple logo">ios</a></li>               
+            </ul>
+            <!--hulp nodig bij tabel--> 
+        </section>
+
+        <section>
+            <h2>Expand your wold</h2>
+            <p>New tools, locations, and spaces are yours to explore, thans to our regular updates. Check out the latest.</p>
+            <!--Hulp bij carousel-->
+        </section>
+
+        <section>
+            <h2>What's new?</h2>
+            <p>Discover the latest news, updates and deep dives from the Minecraft universe!</p>
+            <a href="">See all the news</a>
+            <img src="./img/Minecraft website/MinecraftMarketplace_JurassicWorld_NetBlogEditorial_277x277.jpg" alt="Minecraft Jurassic world adventures een dinosaurus die achter een rode auto rent">
+            <p>marketplace</p>
+            <h3>New Jurassic World adventures</h3>
+            <p>If something chases you, run!</p>
+            <button></button>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <h2>Follow Minecraft</h2>
+            <ul>
+                <li><img src="./img/socials/youtube.svg" alt="youtube logo"></li>
+                <li><img src="./img/socials/instagram.svg" alt="instagram logo"></li>
+                <li><img src="./img/socials/facebook.svg" alt="facebook`"></li>
+                <li><img src="./img/socials/twitter.svg" alt="twitter logo"></li>
+                <li><img src="./img/socials/reddit.svg" alt="reddit logo"></li>
+            </ul>
+        </nav>
+        <nav>
+            <h2>Games</h2>
+            <ul>
+                <li>
+                    <a href=""></a>
+                </li>
+            </ul>
+            <img src="" alt="">
+        </nav>
+    </footer>
+<script src="script.js"></script>
 </body>
-	
 </html>
