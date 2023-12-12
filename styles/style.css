@@ -1,31 +1,428 @@
-/**************/
-/* CSS REMEDY */
-/**************/
+@font-face {
+    font-family: 'Minecraft-Regular';
+    src: url(./assets/MinecraftRegular-Bmg3.otf);
+    font-style: normal;
+}
+  
 *, *::after, *::before {
-  box-sizing:border-box;  
+    box-sizing:border-box;  
+}
+  
+button:not(disabled) {
+    cursor:pointer;
 }
 
-
-
-
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+    --mc-vanilla-coldgrey-3: #5D647A;
+    --black-07: #171615;
+    --green-navigation-1: #a0e080;
+    --green-navigation-2: #a0e081;
+    --disabled-01: #aba09c;
+    --disabled-02: #ede5e2;
+    --font-minecraft-1: 'Minecraft', sans-serif; 
+    --font-minecraft-2: 'Minecraft-Regular';
+    --font-minecraft-3: Arial, Helvetica, sans-serif;
+    --font-size-h1: 2.9em;
+    --font-size-h2: 2em;
+    --font-size-h3: 1.5em;
+    --font-size-h4: .9em;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color:var(--black-07);
+    padding: .3em;
+    line-height: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+/*paddig om de afbeelding meer naar het midden te krijgen*/
+header a:first-of-type {
+    padding-left: 4em;
+}
+
+header a:first-of-type img {
+    width: 70%;
+}
+
+header ul {
+    margin: 0;
+    padding: 0em;
+    list-style: none;
+}
+
+header a {
+    padding: .5em;
+    color: var(--green-navigation-1);
+    text-decoration: none;
+    font-family: var(--font-minecraft-3);
+    font-size: 0.75em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 2em;
+}
+
+.container {
+    display: flex;
+    background-color: var(--black-07);
+    padding: .5em;
+    border-bottom: 0em;
+}
+
+/*Padding toegevoegd om de minecraft logo in het midden te krijgen*/
+.container a {
+    padding-left: 0;
+}
+
+.container button {
+    padding-right: 2em;
+}
+
+header ul li a:last-of-type img {
+    width: 1.4em;
+    margin: 0 .2em 0 0;
+}
+
+header button {
+  border: none;
+  text-decoration: none;
+  appearance: none;
+  background: none;
+  justify-self: start;
+  order: -1;
+}
+
+header nav {
+    position: fixed;
+    background-color: #000;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    translate: -100% 0%;
+    transition: translate .3s;
+}
+
+header nav li:first-of-type {
+    color: var(--disabled-01);
+    font-family: var(--font-minecraft-3);
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: .75em;
+    padding: 2em 0 1em 2em;
+    border-bottom: 1px solid #4a494b;
+
+}
+
+/* Bij de border-bottom heb ik px gebruikt omdat ik de lijn superdun wilde hebben net zoals van de echte website zelf*/
+header nav ul li a {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #4a494b;
+    line-height: 3em;
+    gap: .7em;
+}
+
+header nav ul li:nth-child(8) img {
+    width: .5em;
+    height: auto;
+}
+
+header nav ul li:nth-child(8) {
+    display: flex;
+    flex-direction: row;
+}
+
+nav.toonMenu {
+    translate: 0% 0%;
+}
+
+header nav button {
+    justify-self: start;
 }
 
 
+header button img {
+    width: 2.8em;
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+    font-family: 'Minecraft', sans-serif;  
+    text-align: center; 
+    color: white;    
+    text-shadow: var(--mc-vanilla-coldgrey-3) 0 4px;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+p {
+    font-family: var(--font-minecraft-3);
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    width: 20em;
+}
+
+h4 {
+    font-size: var(--font-size-h4);
+    font-family: var(--font-minecraft-3);
+    font-weight: 800;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+/* Tussen images */
+.fade {
+    width: 100%;
+}
+
+/*// Section 1 //*/
+main section:first-child {
+    background-image: url(./img/home\ pagina\ minecraft.png);
+    background-size: cover;
+    height: 32em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}   
+
+main section:first-child img {
+    width: 2.3em;
+}
+
+main section:first-of-type a {
+    font-family: var(--font-minecraft-2);
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 1em;
+    padding: .5em;
+}
+/*-------------------------------------*/
+
+/*// Section 2 //*/
+main section:nth-child(2) {
+    background-color: black;
+    padding: 2em;
+}
+
+main section:nth-child(2) h2 {
+    color: white;
+    text-align: center;
+    font-family: var(--font-minecraft-1);
+    font-size: var(--font-size-h2);
+    letter-spacing: 1px;
+}
+
+main section:nth-child(2) p {
+    color: white;
+    text-align: center;
+}
+/*-------------------------------------**/
+
+/*// section 3 //*/
+main section:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section:nth-child(4) h2 {
+    font-family: var(--font-minecraft-1);
+}
+
+main section:nth-child(4) h3 {
+    font-family: var(--font-minecraft-2);
+    font-size: 1.5em
+}
+
+main section:nth-child(4) p {
+    text-align: center;
+}
+
+main section:nth-child(4) img {
+    width: 80%;
+}
+/*-----------------------------------*/
+
+/*// Section 4 //*/
+main section:nth-child(5) {
+    background-color: rgb(252, 245, 241);
+    padding: 0 1em 0 1em;
+    display: flex;
+    flex-direction: column;
+}
+main section:nth-child(5) h2 {
+    font-family: var(--font-minecraft-1);
+}
+
+main section:nth-child(5) p {
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+}
+
+main section:nth-child(5) img {
+    width: 100%;
+}
+/*---------------------------------*/
+
+/*//Section in section //*/
+/*NOG NIET AF!*/
+.online {
+    background-color: rgb(252, 245, 241);
+    border: solid rgb(143, 100, 72) 1em;
+}
+
+.online h3 {
+    font-family: var(--font-minecraft-2);
+    font-size: var(--font-size-h3);
+}
+.online ul li {
+    font-family: var(--font-minecraft-2);
+    text-transform: uppercase;
+    font-size: 1.1em;
+    list-style: none;
+    background-color: rgb(237, 229, 226);
+    margin: .4em;
+    padding: .2em .2em .2em .2em;
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 0px 0px;   
+}
+
+.online ul {
+    display: flex;
+    border-bottom:solid #4a494b 1px;
+    padding-bottom: 1em;
+}
+/*-----------------------------*/
+
+/*/// Platform class ///*/
+.platform {
+    background-color: var(--black-07);
+    height: auto;
+    padding: 2em 1em 0 1em;
+}
+
+.platform h2 {
+    color: white;
+    font-size: var(--font-size-h2);
+    font-family: var(--font-minecraft-1);
+}
+
+/* Padding toegevoegd om text in het midden te krijgen !!! */
+.platform p {
+    color: white;
+    text-align: center;
+    padding-left: 2em;
+}
+
+.platform ul {
+    list-style: none;
+    padding: 0;
+}
+
+.platform ul li a {
+    text-decoration: none;
+    font-family: var(--font-minecraft-3);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid #4a494b;
+    border-left: none;
+    border-right: none;
+    line-height: 5em;
+    gap: 0.7em;
+}
+
+/*/ Platform button /*/
+.platform button {
+    background-color: black;
+    color: white;
+    font-family: var(--font-minecraft-2);
+    font-size: 1.5em;
+    text-decoration: underline;
+    padding: .4em .5em .4em .5em;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin: 3em;
+}
+/*---------------------------------*/
+
+/*/// Buy now (bn) class ///*/
+
+.bn:first-child {
+    border-bottom: none;
+}
+
+.bn:nth-child(2) {
+    padding: 0 .5em 0 .9em;
+    border: solid white 2px;
+    width: 7em;
+    height: 2.3em;
+    margin-bottom: .7em;
+}
+/*--------------------------------*/
+
+main section:nth-child(9) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section:nth-child(9) h2 {
+    font-size: 1.5em;
+    font-family: var(--font-minecraft-1);
+}
+
+main section:nth-child(9) p {
+    text-align: center;
+}
+
+main section:nth-child(9) h3 {
+    font-family: var(--font-minecraft-3);
+    font-weight: bolder;
+}
 
 
+/*//// Footer ////*/
+footer nav:first-child {
+    background-color: #000;
+    height: auto;
+    padding: 1em;
+}
 
-/****************/
-/* JOUW STYLING */
-/****************/
+footer nav:first-child h2 {
+    font-family: var(--font-minecraft-3);
+    font-weight: 800;
+    font-size: 1em;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
-/* jouw code */
+footer nav:first-child ul {
+    display: flex;
+}
 
+footer nav:first-child ul li{
+    list-style: none;
+    margin: .5em;
+}
