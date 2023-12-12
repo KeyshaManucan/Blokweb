@@ -40,13 +40,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   About minecraft
-  <img src="./readme/Pagina 1.png" width="375px" alt="Screenshot pagina 1, about minecraft pagina">
+  <img src="./readme-images/Pagina 1.png" width="375px" alt="Screenshot pagina 1, about minecraft pagina">
   
 
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Minecraft education  
-  <img src="./readme/Pagina 2.png" width="375px" alt="Screenshot pagina 2, minecraft education pagina">
+  <img src="./readme-images/Pagina 2.png" width="375px" alt="Screenshot pagina 2, minecraft education pagina">
   
 
  
@@ -137,8 +137,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Ik had moeite met het verkrijgen van het plaatje van de hamburger menu die de website zelf gebruikt. De hamburger menu bestaat uit verschillende lagen die samen zijn gecodeerd, hierdoor is het geen 1 geheel plaatje. Hierdoor heb ik mijn eigen plaatjes gecreëerd:
   
-  <img src="./img/hamburger.png" width="375px" alt="Hamburger menu">
-  <img src="./img/kruis.png" width="375px" alt="Hamburger menu">
+  <img src="./images/hamburger.png" width="375px" alt="Hamburger menu">
+  <img src="./images/kruis.png" width="375px" alt="Hamburger menu">
 
   root kleuren die ik heb toegevoegd voor de navigatie: 
   --green-navigation-1: #a0e080;
@@ -147,7 +147,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Ik probeerde de stappen te volgen van de oefening uit DLO over de hamburger menu, maar mijn <a> teksten verschenen niet. Alleen twee van de meerdere <a> verschenen, ik liep hier erg vast:
 
-  <img src="./readme/Untitlede.png" width="375px" alt="probleem">
+  <img src="./readme-images/Untitlede.png" width="375px" alt="probleem">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
